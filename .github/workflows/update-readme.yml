@@ -1,0 +1,28 @@
+name: 更新 README
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: 更新此仓库的 README，展示最近的活动
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GH_USERNAME: epocode
+          COMMIT_MSG: "⚡ 更新 README，展示最近的活动"
+          MAX_LINES: 5
+          TARGET_FILE: README.md
