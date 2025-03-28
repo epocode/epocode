@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=epocode&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=epocode&layout=compact&cache_bust=$(date +%s))
 HELLO WORLD!
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
