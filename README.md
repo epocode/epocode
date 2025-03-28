@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=epocode&layout=compact)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=epocode&show_icons=true&theme=radical)
 HELLO WORLD!
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
